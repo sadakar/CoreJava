@@ -1,4 +1,4 @@
-package org.sadakar.corejava.inheritance;
+package inheritance;
 
 /*
  * If the reference variable of Parent class refers to the object of Child class, 

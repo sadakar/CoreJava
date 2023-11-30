@@ -1,4 +1,4 @@
-package org.sadakar.corejava.inheritance;
+package inheritance;
 /*
  * When a class inherits another class, it is known as a single inheritance. 
  * In the example given below, Dog class inherits the Animal class, so there is the single inheritance.
