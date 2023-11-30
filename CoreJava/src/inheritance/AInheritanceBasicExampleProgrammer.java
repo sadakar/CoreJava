@@ -1,4 +1,4 @@
-package org.sadakar.corejava.inheritance;
+package inheritance;
 
 /*
  * Inheritance in Java is a mechanism in which 

@@ -6,9 +6,9 @@ A variable which is created inside the class but outside the method is known as 
 Instance variable doesn't get memory at compile time. 
 It gets memory at runtime when an object or instance is created. That is why it is known as an instance variable.
 */
-package org.sadakar.corejava.objectandclass;
+package objectandclass;
 
-public class StudentMainMethodInsideClass {
+public class MainMethodInsideClass {
 
 	int id; // instance variable
 	String name; // instance variable
@@ -21,7 +21,7 @@ public class StudentMainMethodInsideClass {
 
 		// s is reference variable 
 		// new StudentMainMethodInClass() is the object 
-		StudentMainMethodInsideClass s = new StudentMainMethodInsideClass(); 
+		MainMethodInsideClass s = new MainMethodInsideClass(); 
 
 		// printing values of an object
 
