@@ -1,13 +1,13 @@
-package Polymorphism;
+package _polymorphism;
 
 /**
  * Polymorphism: Ability of a method to operate on different types or classes.
- * Same methodwith multiple implementations.
+ * Same method with multiple implementations.
  * 
  * Compile time polymorphism (Method overloading):
  * 
- * A class can have multiple methods with the same name but different parameters
- * list.
+ * A class can have multiple methods with the same name but with different
+ * parameters list.
  * 
  * During compile time appropriate method is called based on number and types of
  * arguments passed to the method.
@@ -15,9 +15,10 @@ package Polymorphism;
  * @author Sadakar.Pochampalli
  *
  */
-public class CompiletimePolymorphismMethodOverloading {
+// Method overloading is done with in a class in this example
+public class CompiletimePolymorphism_MethodOverloading {
 
-	// same method with 1 parameter
+	// same method with 1 parameter of int type
 	public void display(int num) {
 		System.out.println("Same method with int parameter=" + num);
 	}
@@ -35,7 +36,7 @@ public class CompiletimePolymorphismMethodOverloading {
 	public static void main(String args[]) {
 
 		// Creating object for the class
-		CompiletimePolymorphismMethodOverloading mo = new CompiletimePolymorphismMethodOverloading();
+		CompiletimePolymorphism_MethodOverloading mo = new CompiletimePolymorphism_MethodOverloading();
 
 		// Calling method with 1 parameter
 		mo.display(10);

@@ -1,10 +1,12 @@
-package inheritance;
+package _inheritance;
 
 /**
  * Inheritance in Java is a mechanism in which one object acquires all the
  * properties and behaviors of a parent object
  * 
- * Why do we use Inheritance ? Method Overriding - run time polymorphism
+ * <sub class> extends <super class>
+ * 
+ * Why do we use Inheritance ? To implement Method Overriding - run time polymorphism
  */
 // super class
 class Employee {
@@ -12,13 +14,13 @@ class Employee {
 }
 
 // sub class extends super class 
-class AInheritanceBasicExampleProgrammer extends Employee {
+class InheritanceBasicExample_Programmer extends Employee {
 
 	int bonus = 10000; // instance variable
 
 	public static void main(String args[]) {
 
-		AInheritanceBasicExampleProgrammer p = new AInheritanceBasicExampleProgrammer();
+		InheritanceBasicExample_Programmer p = new InheritanceBasicExample_Programmer();
 
 		System.out.println("Programmer salary is " + p.salary);
 		System.out.println("Programmer bonus is " + p.bonus);
