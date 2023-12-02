@@ -11,7 +11,7 @@ class Student2 {
 class MainMethodOutsideClass {
 
 	public static void main(String args[]) {
-		Student2 s = new Student2();
+		Student2 s = new Student2(); // new Student2() is the object and s is the reference variable
 		System.out.println(s.id);
 		System.out.println(s.name);
 	}

@@ -14,7 +14,7 @@ package Keywords;
  * @author Sadakar.Pochampalli
  *
  */
-public class FinalKeywordWithVariable_Bike {
+public class FinalKeyword_Variable_Bike {
 
 	// speed limit of bike with 90 kmph -- instance variable
 	final int speedlimit = 90;
@@ -29,7 +29,7 @@ public class FinalKeywordWithVariable_Bike {
 	}
 
 	public static void main(String args[]) {
-		FinalKeywordWithVariable_Bike b = new FinalKeywordWithVariable_Bike();
+		FinalKeyword_Variable_Bike b = new FinalKeyword_Variable_Bike();
 		b.run();
 	}
 }

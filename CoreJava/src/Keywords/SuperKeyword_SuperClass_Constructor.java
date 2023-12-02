@@ -39,7 +39,7 @@ class Cat3 extends Animal3 {
 	}
 }
 // Class to create object
-public class SuperKeywordForSuperClass_Constructor {
+public class SuperKeyword_SuperClass_Constructor {
 
 	public static void main(String args[]) {
 		Cat3 c = new Cat3("Tiger","white");

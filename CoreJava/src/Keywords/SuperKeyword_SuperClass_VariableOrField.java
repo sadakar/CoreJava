@@ -28,7 +28,7 @@ class Cat2 extends Animal2 {
 }
 
 // Class to create object
-public class SuperKeywordForSuperClass_VariableOrField {
+public class SuperKeyword_SuperClass_VariableOrField {
 	public static void main(String args[]) {
 		Cat2 c = new Cat2();
 		c.displayColor();

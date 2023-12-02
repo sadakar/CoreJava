@@ -29,7 +29,7 @@ class Cat extends Animal {
 }
 
 // class to create object and access methods
-public class SuperKeywordForSuperClass_Method {
+public class SuperKeyword_SuperClass_Method {
 	public static void main(String args[]) {
 		Cat c = new Cat();
 		c.makeSound();
