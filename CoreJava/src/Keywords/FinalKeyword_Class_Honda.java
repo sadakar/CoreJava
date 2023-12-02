@@ -22,13 +22,13 @@ package Keywords;
 class Bike { // Super class -- Bike 
 }
 
-class FinalKeywordWithClass_Honda extends Bike { // Sub class -- Honda
+class FinalKeyword_Class_Honda extends Bike { // Sub class -- Honda
 	void run() {
 		System.out.println("running safely with 100kmph");
 	}
 
 	public static void main(String args[]) {
-		FinalKeywordWithClass_Honda honda = new FinalKeywordWithClass_Honda();
+		FinalKeyword_Class_Honda honda = new FinalKeyword_Class_Honda();
 		honda.run();
 	}
 }

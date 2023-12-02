@@ -23,14 +23,14 @@ class Bike2 {
 	}
 }
 // Sub class -- Honda
-class FinalKeywordWithMethod_Honda extends Bike2 {
+class FinalKeyword_Method_Honda extends Bike2 {
 
 	// enable below code to see compile error
 	/*
 	 * void run() { System.out.println("Running with 100 kmph"); }
 	 */
 	public static void main(String[] args) {
-		FinalKeywordWithMethod_Honda h = new FinalKeywordWithMethod_Honda();
+		FinalKeyword_Method_Honda h = new FinalKeyword_Method_Honda();
 		h.run();
 	}
 
