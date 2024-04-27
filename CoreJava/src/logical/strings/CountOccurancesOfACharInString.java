@@ -1,9 +1,9 @@
-package logical;
+package logical.strings;
 
 /*
  * https://www.baeldung.com/java-count-chars#:~:text=Let's%20start%20with%20a%20simple,%7D%20assertEquals(2%2C%20count)%3B
  */
-public class String_CountOccurancesOfAChar {
+public class CountOccurancesOfACharInString {
 
 	public static void main(String args[]) {
 	String str ="elephant"; // note that E and e are case sensitive

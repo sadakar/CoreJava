@@ -1,4 +1,4 @@
-package Keywords;
+package keywords;
 
 /**
  * this is a keyword that refers to the current instance of the class. It is

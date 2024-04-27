@@ -1,4 +1,4 @@
-package Keywords;
+package keywords;
 
 /**
  * @author Sadakar.Pochampalli
@@ -37,14 +37,13 @@ package Keywords;
  * 
  *
  */
-public class StaticKeyword_Block {
+public class StatickKeyword_Method {
 
-	// static block
-	static { // This block of code is executed when the class is loaded
-		System.out.println("This is a static block");
+	// static method
+	static void staticMethod() {
+		System.out.println("This is a static method");
 	}
-
 	public static void main(String args[]) {
-		// The static block is already been executed when the class is loaded
+		StatickKeyword_Method.staticMethod(); // calling the static method with class name.
 	}
 }
