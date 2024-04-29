@@ -1,5 +1,10 @@
 package collections;
 import java.util.*;
+/**
+ *  * @author Sadakar.Pochampalli
+ *
+ *
+ */
 public class MapInterfaceHasMapClass {
 
 	public static void main(String args[]) {
