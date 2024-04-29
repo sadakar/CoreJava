@@ -3,50 +3,56 @@ package collections;
 import java.util.*;
 
 /**
- * List is an interface that represents an ordered collection of elements where
- * each element has an index. Child interface of Collection interface. Null can
- * be stored, Allows duplicates elements.
- * 
- * Implementation classes : ArrayList, LinkedList, Stack and etc.
  * 
  * @author Sadakar.Pochampalli
  *
+ *         What is List ? List is an ordered collection of elements.
+ * 
+ *         Example-1: {10,50,60,3,1}
+ * 
+ *         Example-2: {"Sadakar","Hasini","Raju","Souji"}
+ * 
+ *         List can have duplicate values
+ * 
+ *         List can have null values
+ *         
+ *         List index starts from -- same as arrays index
  */
+
 public class ListInterfaceArrayListClass {
 
 	public static void main(String args[]) {
 
-		// Creating object for List Interface
-		// new ArrayList<Integer>() is the object
-		List<Integer> l1 = new ArrayList<Integer>();
+		List<Integer> list = new ArrayList<Integer>(); // List is interface and this interface is being implemented by
+														// ArrayList class
 
-		// Adding elements for List interface with indexes
-		l1.add(0, 1);
-		l1.add(1, 2);
-		l1.add(2, 3);
+		// Add integer objects to the list
+		list.add(10);
+		list.add(30);
+		list.add(3);
+		list.add(3); // 3 duplicate value
+		list.add(null); // list can store null values -- but can not be like add()
 
-		System.out.println("list l1 =" + l1);
-
-		// Adding elements for existing list with integers
-		l1.add(6);
-		l1.add(7);
-		l1.add(8);
-		System.out.println("Updated list l1=" + l1);
-
-		// Iterating through List elements using for-each loop (enhanced for loop)
-		/**
-		 * The loop variable listvalues takes on each value in the List interface in
-		 * turn. The enhanced for-each loop is particularly useful when you don't need
-		 * the index and just want to iterate over the elements of a collection.
-		 */
-		for (Integer listvalues : l1) {
-			System.out.println(listvalues);
+		// Printing the list
+		System.out.println("Just print the list");
+		System.out.println(list);
+		
+		// Traversing list through iterator and while loop
+		System.out.println("List elements -- Iterator and while loop");
+		Iterator itr = list.iterator();
+		while (itr.hasNext()) {
+			System.out.print(" " + itr.next());
 		}
 
-		// Iterating through List elements using traditional for loop
-		for (int i = 0; i < l1.size(); i++) {
-			System.out.println(l1.get(i));
+		System.out.println("\n List elements foreach loop");
+		// Iterating through for each loop
+		for(Integer l : list) {
+			System.out.print(" "+l);
 		}
-
+		System.out.println("\n List elements regular for loop");
+		for(int i=0;i<list.size();i++) {
+			System.out.print(" "+list.get(i)); // Use get method with index to get the values. 
+		}
 	}
+
 }

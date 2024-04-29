@@ -1,4 +1,4 @@
-package logical;
+package logical.loops;
 
 public class InfiniteForLoop {
 

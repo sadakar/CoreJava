@@ -1,4 +1,4 @@
-package logical;
+package logical.strings;
 
 /**
  * 
@@ -9,7 +9,7 @@ package logical;
  *         Use pointers to store the last value into first and first value in to
  *         last.
  */
-public class ReverseAString_UsingCharacterArry {
+public class ReverseAString_UsingCharacterArray {
 
 	public static void main(String args[]) {
 
@@ -21,10 +21,10 @@ public class ReverseAString_UsingCharacterArry {
 		int j = str.length() - 1; // pointer for end --> 7-1=6
 
 		// Character array to store reversed string
-		char[] revString = new char[j + 1]; // means new Char[7]
+		char revString[] = new char[j + 1]; // means new Char[7] -- Set length of reversed String
 		
 		// Looping and reversing
-		while(i<=j) {  // 0<=1
+		while(i<=j) {  // 0<=6
 			
 			revString[j]=str.charAt(i);
 			revString[i]=str.charAt(j);

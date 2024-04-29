@@ -1,4 +1,4 @@
-package Keywords;
+package keywords;
 
 /**
  * @author Sadakar.Pochampalli

@@ -1,4 +1,4 @@
-package Keywords;
+package keywords;
 
 /**
  * @author Sadakar.Pochampalli
@@ -37,13 +37,26 @@ package Keywords;
  * 
  *
  */
-public class StatickKeyword_Method {
+public class StaticKeyword_Variable {
 
-	// static method
-	static void staticMethod() {
-		System.out.println("This is a static method");
+	static int count = 0; // static variable
+
+	public StaticKeyword_Variable() { // constructor
+		count++;
 	}
+
 	public static void main(String args[]) {
-		StatickKeyword_Method.staticMethod(); // calling the static method with class name.
+		// Print the static variable before the instance of the class (object) is
+		// created
+		System.out.println("Count:" + StaticKeyword_Variable.count); // accessing static variable with class name
+
+		StaticKeyword_Variable v = new StaticKeyword_Variable(); // object 1 and it calls default constructor
+		StaticKeyword_Variable v2 = new StaticKeyword_Variable(); // object 2 and it calls default constructor
+
+		// Print the static variable after the instance of the class is created ( two
+		// objects created above so two calls)
+		System.out.println("Count after creating instances:" + StaticKeyword_Variable.count);// accessing static
+																								// variable with class
+																								// name
 	}
 }

@@ -1,4 +1,4 @@
-package Keywords;
+package keywords;
 
 /**
  * final : is used to restrict the user

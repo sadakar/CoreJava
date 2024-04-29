@@ -1,4 +1,4 @@
-package Keywords;
+package keywords;
 
 /**
  * finalize() method : Prior to the garbage collection of an object the finalize
