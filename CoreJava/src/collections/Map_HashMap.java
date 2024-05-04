@@ -5,7 +5,7 @@ import java.util.*;
  *
  *
  */
-public class MapInterfaceHasMapClass {
+public class Map_HashMap {
 
 	public static void main(String args[]) {
 		
@@ -18,6 +18,7 @@ public class MapInterfaceHasMapClass {
 		map.put(101, "Vijay");
 		map.put(102, "Rahul");
 		
+		System.out.println(map);
 		// Printing Map elements using for-each loop
 		for(Map.Entry<Integer, String> m : map.entrySet()) { 
 			//m is the loop variable, entrySet is the method of Set Inteface.
