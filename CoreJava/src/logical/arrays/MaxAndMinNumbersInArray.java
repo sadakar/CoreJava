@@ -23,9 +23,11 @@ public class MaxAndMinNumbersInArray {
 		*/
 		// for each loop with loop variable as num
 		for (int num : array) { 
+			// find max
             if (num > max) {
                  max = num;
-             }      
+             }  
+            // find min
             if(num < min) {
             	min=num;
             }

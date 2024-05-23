@@ -19,7 +19,7 @@ import java.util.*;
  *         to/from an array, you have to create a new one). While elements can
  *         be added and removed from an ArrayList whenever you want.
  * 
- *         Example-1: {10,50,60,3,1}
+ *         Example-1: {10,50,60,3,1,10,null}
  * 
  *         Example-2: {"Sadakar","Hasini","Raju","Souji"}
  * 
@@ -27,7 +27,7 @@ import java.util.*;
  * 
  *         List can have null values
  * 
- *         List index starts from -- same as arrays index
+ *         List index starts from 0-- same as arrays index
  */
 
 public class List_ArrayList {
