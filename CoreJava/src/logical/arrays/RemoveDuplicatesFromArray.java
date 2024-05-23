@@ -17,6 +17,7 @@ public class RemoveDuplicatesFromArray {
 	        	System.out.print(num);
 	        }
 	        System.out.println("\nConvert array to set");
+	        
 	        // Convert array to a Set to remove duplicates
 	        Set<Integer> set = new HashSet<>();
 	        for (int num : array) {
@@ -24,7 +25,8 @@ public class RemoveDuplicatesFromArray {
 	        }
 
 	        System.out.print(set+"\n");
-	        
+
+	        // Display set elements
 	        System.out.println("Set elements");
 	        Iterator itr = set.iterator();
 	        while(itr.hasNext()) {

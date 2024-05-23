@@ -19,7 +19,7 @@ public class HashMapExample {
 		HashMap<Integer, String> map = new HashMap<Integer, String>();
 
 		map.put(1, "Apple");
-		map.put(2, "Orange");
+		map.put(12, "Orange");
 		map.put(null, "Banana");
 		map.put(3, "Jack fruite");
 		map.put(4, null);

@@ -25,7 +25,7 @@ import java.util.*;
  * 
  *         List can have duplicate values
  * 
- *         List can have null values
+ *         List can have null values (in strings)
  * 
  *         List index starts from 0-- same as arrays index
  */

@@ -1,4 +1,4 @@
-package collections;
+package collections.logical;
 import java.util.*;
 /**
  * 
