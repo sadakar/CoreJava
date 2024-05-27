@@ -1,0 +1,13 @@
+1) Explain git hub conflicts when do you see a conflict?
+2) DSA ( Data Structures and Algorithms) ? 
+   https://www.w3schools.com/dsa/index.php
+3) Lift scenarios: 
+    https://www.quora.com/What-are-the-test-cases-and-test-scenarios-on-lift
+3) ATM scenarios: 
+   https://www.softwaretestingmaterial.com/how-to-write-test-cases-for-atm/
+4) Find duplicates in collection (duplicates in list)
+5) LeetCode algorithms interview tool 
+   https://leetcode.com/problemset/
+6) Reverse a string
+7) Write test scenarios for whatsapp
+   https://testsigma.com/blog/test-cases-for-whatsapp/

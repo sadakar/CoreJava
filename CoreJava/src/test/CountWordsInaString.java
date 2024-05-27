@@ -1,3 +1,4 @@
+package test;
 import java.util.*;
 public class CountWordsInaString {
 	public static void main(String args[]) {

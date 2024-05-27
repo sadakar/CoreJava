@@ -1,6 +1,6 @@
 package logical.loops;
 import java.util.*;
-public class MathTables {
+public class MathTablesNestedForLoop {
 
 	public static void main(String args[]) {
 		
