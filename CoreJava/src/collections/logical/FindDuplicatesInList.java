@@ -10,7 +10,7 @@ import java.util.*;
 public class FindDuplicatesInList {
 	public static void main(String args[]) {
 		List<Integer> list = new ArrayList<>(Arrays.asList(10,20,30,10,40,20));
-		System.out.println(list);
+		System.out.println("List:"+list);
 		
 		Set<Integer> set = new HashSet<>();
 		List<Integer> duplicates = new ArrayList<>();

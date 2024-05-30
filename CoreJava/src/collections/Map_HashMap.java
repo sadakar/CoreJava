@@ -4,6 +4,20 @@ import java.util.*;
 
 /**
  * * @author Sadakar.Pochampalli
+ * 
+ * Difference between HashMap and TreeMap ?
+ * https://www.javatpoint.com/difference-between-hashmap-and-treemap
+ *
+ * HashMap: Implements the Map interface based on a hash table. Allows null keys
+ * and values. Provides constant-time performance for basic operations (get and
+ * put). Does not maintain any order of keys.
+ * 
+ * 
+ * TreeMap: Implements the Map interface based on a Red-Black tree. Does not
+ * allow null keys (throws NullPointerException). Provides log(n) time cost for
+ * get, put, and other operations. Maintains a sorted order of keys, according
+ * to their natural ordering or by a specified comparator.
+ *
  *
  * Map and HashMap are fundamental components of the Java Collections Framework
  * used to store key-value pairs. They allow you to associate a value with a
@@ -18,10 +32,10 @@ import java.util.*;
  * be unique, and each key can map to at most one value. Common methods provided
  * by the Map interface include put(key, value), get(key), containsKey(key),
  * containsValue(value), remove(key), keySet(), values(), and entrySet().
- * HashMap:
  * 
- * HashMap is a concrete implementation of the Map interface. It uses a hash
- * table data structure to store key-value pairs. Provides constant-time
+ * 
+ * HashMap: HashMap is a concrete implementation of the Map interface. It uses a
+ * hash table data structure to store key-value pairs. Provides constant-time
  * performance for basic operations like put() and get() on average, assuming a
  * good hash function and proper load factor. Does not maintain any order of
  * key-value pairs. Allows null as both keys and values (except for the special

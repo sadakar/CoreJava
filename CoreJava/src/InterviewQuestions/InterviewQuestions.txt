@@ -11,3 +11,21 @@
 6) Reverse a string
 7) Write test scenarios for whatsapp
    https://testsigma.com/blog/test-cases-for-whatsapp/
+8) Add _ (underscore) between lower and upper case letters of a given String
+9) Interfaces in java and give an example
+	https://www.geeksforgeeks.org/interfaces-in-java/
+10) Garbage collection and finalize() demo in java 
+     https://www.geeksforgeeks.org/garbage-collection-java/
+11) Exception handling: https://www.javatpoint.com/exception-handling-in-java
+
+Selenium: 
+1) How to select a value from drop 
+2) How to select multiple values in a drop down 
+3) How to select all values in drop down
+
+
+Map, HashMap, TreeMap
+-------------------------
+1) How would you iterate over a HashMap in Java?
+2) Write a code to sort a HashMap by its keys.
+3) How do you synchronize a HashMap in Java?
