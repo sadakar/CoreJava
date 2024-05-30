@@ -13,6 +13,8 @@ public class FindDuplicatesInList {
 		System.out.println("List:"+list);
 		
 		Set<Integer> set = new HashSet<>();
+	
+		
 		List<Integer> duplicates = new ArrayList<>();
 		
 		for(Integer i: list) {
@@ -20,7 +22,6 @@ public class FindDuplicatesInList {
 				duplicates.add(i);
 			}
 		}
-		System.out.println("Set:"+set);
 		System.out.println("Duplicates:"+duplicates);
 	}
 
