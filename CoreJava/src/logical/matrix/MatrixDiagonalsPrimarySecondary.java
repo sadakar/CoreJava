@@ -40,7 +40,7 @@ public class MatrixDiagonalsPrimarySecondary {
 		for (int i = 0; i < matrix.length; i++) {
 			for (int j = 0; j < matrix[i].length; j++) {
 
-				// Condition for principal diagonal
+				// Condition for secondary diagonal
 				if (i+j == matrix.length-1) {
 					System.out.print(matrix[i][j] + " ");
 				}

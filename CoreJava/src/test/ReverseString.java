@@ -1,16 +1,15 @@
 package test;
-import java.util.*;
-public class ReverseAString {
+
+public class ReverseString {
+
 	public static void main(String args[]) {
-		
-		String str="Reverse Me";
-		
+		String str = "Hasini";
 		int i=0;
-		int j=str.length()-1;
+		int j= str.length()-1;
 		
 		char revString[] = new char[j+1];
 		
-		while(i<=j) {
+		while(i<=j){
 			revString[j]=str.charAt(i);
 			revString[i]=str.charAt(j);
 			i++;
@@ -18,5 +17,4 @@ public class ReverseAString {
 		}
 		System.out.println(revString);
 	}
-
 }

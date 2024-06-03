@@ -1,5 +1,10 @@
 package logical.numbers;
 import java.util.*;
+/**
+ *  If the reversed number is equals to the given number then it is called Polindrome number
+ * @author Sadakar.Pochampalli
+ *
+ */
 public class PolindromeNumber {
 	public static void main(String args[]) {
 		System.out.println("Enter a number in next line:");

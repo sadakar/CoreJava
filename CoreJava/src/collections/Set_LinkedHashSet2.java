@@ -30,7 +30,7 @@ public class Set_LinkedHashSet2 {
 	public static void main(String args[]) {
 
 		// Set and HashSet
-		Set<Integer> set = new HashSet<Integer>();
+		Set<Integer> set = new LinkedHashSet<Integer>();
 		set.add(10);
 		set.add(10);
 		set.add(10);

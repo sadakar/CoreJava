@@ -7,7 +7,7 @@ package logical.characters;
  *         https://medium.com/@k.manu00005/why-to-use-char-array-over-a-string-for-storing-passwords-in-java-5846baedf34b#:~:text=So%20storing%20a%20password%20in,after%20its%20work%20is%20complete.
  * 
  *         Strings are immutable:(unchanging over time or unable to be changed.
- *         i.e., fixed, unchangable
+ *         i.e., fixed, un changable
  * 
  *         Strings are immutable in Java and therefore if a password is stored
  *         as plain text it will be available in memory until Garbage collector

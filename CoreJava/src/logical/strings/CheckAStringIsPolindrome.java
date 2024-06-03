@@ -20,7 +20,7 @@ public class CheckAStringIsPolindrome {
 			j--;
 		}
 		System.out.println(revString);
-		String str2 = new String(revString);
+		String str2 = new String(revString); // making char array as a String
 		System.out.println(str2);
 		if(str.equals(str2)) {
 			System.out.println("Given string is a palindrome");
