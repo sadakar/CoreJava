@@ -29,3 +29,28 @@ Map, HashMap, TreeMap
 1) How would you iterate over a HashMap in Java?
 2) Write a code to sort a HashMap by its keys.
 3) How do you synchronize a HashMap in Java?
+
+
+How will you decide on the framework?
+What is the most challenging part of Test automation?
+Why Cucumber?
+What is the difference between Java Hashmap vs./ HashSet?
+What if you close the Webdriver and then perform any action?
+What if you want to run the failed TCs again?
+Why is String immutable in Java?
+Write a program to remove special chars from a string.
+How do you plan to upgrade your skill set?
+What qualities do you look for when hiring an automation team member?
+Can you explain what the difference between == vs. equals is?
+What are the API Testing challenges you have faced?
+Can abstract classes have a static method?
+What is the Interface you are using in your framework?
+Why do we need session handling in selenium?
+How you will handle the dynamic web tables using selenium.
+How to handle ajax calls in selenium.
+SQL query for finding the 3rd highest salary.
+Can a static method be overloaded?
+Write a Program to Count the words in a string.
+Explain the CI-CD pipeline.
+What exceptions did you handle in your framework?`
+Which OOP concepts did you use in your framework, and where?

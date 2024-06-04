@@ -6,8 +6,7 @@ package _abstraction;
  * @author Sadakar.Pochampalli
  * 
  * 
- *         Uses of Interfaces in Java Uses of Interfaces in Java are mentioned
- *         below:
+ *         Uses of Interfaces in Java are mentioned below:
  * 
  *         It is used to achieve total abstraction. Since java does not support
  *         multiple inheritances in the case of class, by using an interface it
