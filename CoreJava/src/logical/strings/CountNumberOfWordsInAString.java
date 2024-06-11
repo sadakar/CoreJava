@@ -15,14 +15,21 @@ public class CountNumberOfWordsInAString {
 		String str = " This is a sample sentence to count the number of words ";
 
 		str = str.trim();
+		String[] words = {};// Empty array
 
+		// Count the words
 		if (str.isEmpty()) {
 			System.out.println("Empty String");
 		} else {
-			String[] words = str.split("\\s"); // Split the string into words based on whitespace
+			words = str.split("\\s"); // Split the string into words based on whitespace
 			// and count the number of resulting tokens
 			int count = words.length;
-			System.out.println("Number of words="+count);
+			System.out.println("Number of words=" + count);
+		}
+
+		// Print the words
+		for (String s : words) {
+			System.out.println(s);
 		}
 	}
 }
