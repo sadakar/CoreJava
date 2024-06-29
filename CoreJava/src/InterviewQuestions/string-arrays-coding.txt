@@ -1,0 +1,27 @@
+java-coding-related questions related to strings and arrays for automation testers:
+
+#Strings
+
+1. Reverse a String
+2. Check if a String is a Palindrome
+3. Determine if Two Strings are Anagrams
+4. Find the Longest Substring Without Repeating Characters
+5. Compress a String by Counting Consecutive Characters
+6. Check if One String is a Rotation of Another
+7. Tokenize a String into Words
+8. Generate All Permutations of a String
+9. Count Vowels and Consonants in a String
+10. Check if a String is a Pangram
+
+#Arrays
+
+1. Find Pairs of Integers in an Array that Sum up to a Target
+2. Remove Duplicates from a Sorted Array
+3. Rotate an Array to the Right by a Given Number of Steps
+4. Merge Two Sorted Arrays into a Single Sorted Array
+5. Find the Missing Number in an Array from 1 to N
+6. Find the Contiguous Subarray with the Largest Sum
+7. Check if an Array Contains Duplicates
+8. Calculate the Product of Array Except Self
+9. Move Zeroes to the End of an Array
+10. Find a Peak Element in an Array

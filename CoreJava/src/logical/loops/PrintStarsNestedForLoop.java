@@ -7,7 +7,7 @@ package logical.loops;
  *https://www.qafox.com/java-for-testers-interview-questions-and-answers-part-1/
  */
 import java.util.*;
-public class PrintStars_InnerForLoop {
+public class PrintStarsNestedForLoop {
 
 	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
