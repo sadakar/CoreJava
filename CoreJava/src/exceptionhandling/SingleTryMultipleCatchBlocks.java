@@ -15,7 +15,7 @@ package exceptionhandling;
  * @author Sadakar.Pochampalli
  *
  */
-public class SingleTryBlockMultipleCatchBlocks {
+public class SingleTryMultipleCatchBlocks {
 
 	public static void main(String args[]) {
 

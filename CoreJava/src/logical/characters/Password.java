@@ -1,5 +1,7 @@
 package logical.characters;
 
+import java.util.Arrays;
+
 /**
  * 
  * @author Sadakar.Pochampalli
@@ -39,7 +41,7 @@ package logical.characters;
  *         system. With plain String, there are much higher chances of
  *         accidentally printing the password to logs, monitors or some other
  *         insecure place, char[] is less vulnerable.
- *
+ 
  */
 public class Password {
 
@@ -47,6 +49,6 @@ public class Password {
 		String password = "MyPassword@123";
 		char password2[] = new char[] { 'p', 'a', 's', 's', 'w', 'o', 'r', 'd' };
 		System.out.println("Password as String=" + password);
-		System.out.println("Password as characters=" + password2);
+		System.out.println("Password as characters=" + Arrays.toString(password2));
 	}
 }

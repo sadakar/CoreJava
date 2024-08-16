@@ -9,6 +9,12 @@ public class DisplayStringArray {
 		// String array
 		String strarr[] = {"John","Sadakar","Hasini"};
 		
+		//Display using for each loop
+		for(String s : strarr) {
+			System.out.print(s +" ");
+		}
+		System.out.println("\n");
+		
 		// Display string array
 		System.out.println(Arrays.toString(strarr));
 		

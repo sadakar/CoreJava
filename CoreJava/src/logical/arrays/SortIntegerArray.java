@@ -15,7 +15,7 @@ public class SortIntegerArray {
 		}
 
 		// print sorted array -- default is ascending order
-		System.out.println("\nArray after sorting -- defaul is descending order");
+		System.out.println("\nArray after sorting -- default is ascending order");
 		Arrays.sort(arr);
 		for (int num : arr) {
 			System.out.print(num + " ");
@@ -31,7 +31,7 @@ public class SortIntegerArray {
 		 * 
 		 */
 
-		System.out.println("\nArray in ascending order");
+		System.out.println("\nArray in descending order");
 		for (int i = arr.length - 1; i >= 0; i--) {
 			System.out.print(arr[i] + " ");
 		}

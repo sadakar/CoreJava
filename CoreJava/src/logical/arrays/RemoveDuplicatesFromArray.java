@@ -16,8 +16,8 @@ public class RemoveDuplicatesFromArray {
 	        for(int num:array) {
 	        	System.out.print(num);
 	        }
-	        System.out.println("\nConvert array to set");
 	        
+	        System.out.println("\nConvert array to set");
 	        // Convert array to a Set to remove duplicates
 	        Set<Integer> set = new HashSet<>();
 	        for (int num : array) {
