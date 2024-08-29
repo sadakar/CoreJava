@@ -33,7 +33,7 @@ abstract class Animal {
 	// abstract method -- only declaration, it doesn't have any body
 	public abstract void animalSound();
 
-	// regular method
+	// regular method i.e., an abstract class can have regular methods
 	public void sleep() {
 		System.out.println("Animal is sleeping... zzzz");
 	}
